@@ -1,0 +1,25 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachineName": {
+            "value": "AzVMWS2016-HDD1"
+        },
+        "adminUsername": {
+            "value": "AzureRoot"
+        },
+        "adminPassword": {
+            "value": "Azure123456789"
+        },
+        
+        "diskType": {
+            "value": "Standard_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_V3"
+        },
+        "windowsOSVersion": {
+            "value": "2016-Datacenter"
+        }
+    }
+}
